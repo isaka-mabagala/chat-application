@@ -1,0 +1,344 @@
+body {
+    background-color: #f7f9fa;
+    color: #212529;
+    letter-spacing: 1px;
+	font-size: 14px;
+	line-height: 1.25em;
+	overflow: hidden;
+}
+.{
+	color: #2E8B57;
+}
+textarea {
+	max-height: 100px;
+}
+input, button {
+	letter-spacing: inherit;
+}
+a:focus {
+	outline: none;
+}
+.dropdown-menu a:hover {
+	text-decoration: none;
+}
+.c-pointer {
+	cursor: pointer;
+}
+.hide {
+	display: none;
+}
+div::-webkit-scrollbar {
+	width: 10px;
+}
+div::-webkit-scrollbar-thumb {
+	background: rgba(0,0,0,.1);
+}
+img.icon {
+    width: 22px;
+}
+.text-128c7e {
+	color: #128C7E;
+}
+.text-fffafa {
+	color: #fffafa;
+}
+.text-929fa6 {
+	color: #929fa6;
+}
+.avatar.avatar-lg {
+    width: 173px;
+    height: 173px;
+    border-radius: 50%;
+}
+
+.new-name, .new-desc, .new-pass {
+	display: none;
+}
+.new-name.show, .new-desc.show, .new-pass.show {
+	display: block;
+}
+.panel-new-chat {
+	position: absolute;
+	top: 0;
+	transform: translateX(-100%);
+	transition: transform 0.2s ease-in-out;
+}
+.panel-new-chat.view {
+	transform: translateX(0);
+}
+.prfl_img {
+	position: relative;
+    width: 157px;
+}
+.prfl_img .upload-btn {
+    position: absolute;
+    background: #00bfa5;
+    color: #fff;
+    padding: 10px;
+    right: 0;
+    top: 7.7em;
+    border-radius: 50%;
+}
+.prfl_img .upload-btn i {
+	font-size: 27px;
+}
+.dropdown-menu {
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.dropdown li {
+    line-height: 2em;
+    cursor: pointer;
+    font-size: 14px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.dropdown li:hover {
+	background: #eee;
+}
+.header {
+    background: #00bfa5;
+    color: #fff;
+    padding: 10px 20px;
+}
+.header.chat-hdr {
+	background: #eeeeee;
+	color: #727b80;
+}
+.user_active {
+    background: #42b72a;
+    border-radius: 50%;
+    display: inline-block;
+    height: 6px;
+    width: 6px;
+    position: relative;
+    vertical-align: middle;
+}
+.container-profile {
+    padding-left: 0;
+	padding-right: 0;
+}
+.container-profile .details i {
+	color: #92989b;
+}
+.container.container-profile .avatar {
+	width: 157px;
+	height: 157px;
+	border-radius: 75px;
+    overflow: hidden;
+}
+
+.form-description {
+    display: block;
+    font-size: 0.9rem;
+    color: #5a5a5a;
+}
+
+.upload-btn {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+.upload-btn input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.container.login,
+.container.register {
+	max-width: 576px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2);
+	border-radius: 8px;
+}
+.container.message {
+    padding: 0;
+}
+.avatar {
+    width: 132px;
+    height: 132px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+}
+.avatar.small {
+    width: 42px;
+    height: 42px;
+    margin: 0;
+	margin-right: 1rem;
+    border: 0;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.container.login .avatar,
+.container.register .avatar {
+    border-radius: 0;
+    border: 0;
+    width: 76px;
+    height: 76px;
+}
+.side-container {
+	position: relative;
+    width: 580px;
+	height: 100vh;
+	border-right: 1px solid rgba(0, 0, 0, 0.08);
+}
+.contents.container-fluid {
+	position: relative;
+	padding-left: 0;
+	padding-right: 0;
+	height: 100vh;
+}
+.chat-hdr {
+	top: 0;
+    z-index: 999;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+    padding: 10px;
+}
+.chat-list {
+    height: 90vh;
+}
+.chat-list .list-group-item {
+	border: 0;
+	padding: 0.75rem 1rem;
+}
+.list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.list-group-item:first-child {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.chat-msg .msg {
+    padding: 5px 8px 6px;
+    margin: 1em;
+	max-width: 75%;
+}
+.chatlogs {
+    height: 75%;
+	font-size: 12px;
+}
+.chat-msg.chat-receiver .msg {
+	background-color: #4b4f56;
+	color: #fff;
+	border-radius: 0 12px 12px 12px;
+}
+.chat-msg.chat-sender .msg {
+	background-color: #4080ff;
+	color: #fff;
+	border-radius: 12px 0 12px 12px;
+}
+.chat-msg.chat-sender .msg small {
+	text-align: right;
+}
+.chat-form {
+	position: absolute;
+	bottom: 0;
+	width: 98%;
+}
+.chat-form textarea {
+	height: 50px;
+	border-radius: 3px 0 0 3px;
+	border: 2px solid #eee;
+	resize: none;
+	padding: 10px;
+}
+.chat-form .btn {
+    border-radius: 0 0.25rem 0.25rem 0;
+    font-size: 1.6em;
+    color: #5bc0de;
+    line-height: inherit;
+}
+.chat-box .avatar {
+    width: 37px;
+    height: 37px;
+    border-radius: 20px;
+	border: 0;
+}
+.container.chat-box {
+	position: relative;
+    padding: 0;
+	height: 100%;
+}
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.register .alert,
+.login .alert,
+.setting .alert {
+    padding: 8px 10px 0 10px;
+    text-align: center;
+}
+.copyright, .version {
+	color: #555;
+	font-size: 13px;
+	float: left;
+}
+.copyright p,
+.version p {
+    margin-bottom: 0.5em;
+}
+
+.custom-checkbox .custom-control-label::before {
+    border-radius: 2px;
+	border: 1px solid #4285f4;
+}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #007bff;
+}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+	color: #4285f4;
+}
+.custom-control-label::before {
+    top: 2px;
+    left: -26px;
+    width: 20px;
+    height: 20px;
+	background-color: #fff;
+}
+.custom-control-input:focus ~ .custom-control-label::before {
+  box-shadow: none;
+}
+.custom-control {
+	min-height: 2rem;
+	padding-left: 2rem;
+	line-height: 1.4rem;
+}
+
+.btn:focus, .btn.focus,
+.form-control:focus {
+	box-shadow: none;
+}
+
+
+
+@media (min-width: 992px) {
+	
+}
+@media (min-width: 768px) {
+	
+}
+@media (max-width: 768px) {
+	.contents.container-fluid {
+		width: 100%;
+	}
+	.side-container {
+		display: none;
+	}
+}
+@media (min-width: 576px) {
+	.container {
+		max-width: 100%;
+	}
+}
+@media (max-width: 576px) {
+	.container.login,
+	.container.register {
+		box-shadow: none;
+		border-radius: 0;
+	}
+}
