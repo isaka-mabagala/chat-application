@@ -5,7 +5,14 @@
 This is online chat application that looks like WhatsApp
 
 ## Demo
-- Select any user from the database `users table` and password `12345`
+- Select any user from the database `users table`
+
+    Username    | Password
+    ------------|:-----------
+    isaxstar    | 12345
+    jabir       | 12345
+    lizzy       | 12345
+    lymo        | 12345
 
 ## Setup application
 - XAMPP `OR` WAMP
@@ -13,6 +20,6 @@ This is online chat application that looks like WhatsApp
 - MySQL >= 5.6 `OR` MariaDB >= 10.1
 
 ## Use the app
-- Open two different web browser like Chrome `AND Firefox
+- Open two different web browser like Chrome `AND` Firefox
 - Login in different users
 - Start chatting
